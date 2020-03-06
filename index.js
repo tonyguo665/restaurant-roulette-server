@@ -26,7 +26,6 @@ app.get("/", (req,res)=>{
     params:req.query
   })
   .then((results)=>{
-    console.log(results)
     res.send(results.data.businesses)
   })
   .catch((err)=>{
