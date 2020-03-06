@@ -10,7 +10,7 @@ const parser = require("body-parser");
 const router = require("./routes");
 // Server Instantiation
 const app = express();
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 3001);
 
 // Logging and parsing
 app.use(cors());
@@ -26,6 +26,7 @@ app.get("/", (req,res)=>{
     params:req.query
   })
   .then((results)=>{
+    console.log(results)
     res.send(results.data.businesses)
   })
   .catch((err)=>{
