@@ -1,12 +1,10 @@
-# Restaurant Roulette - server
+# Restaurant Roulette - Server
 
-Single page application that selects a restaurant based on user location and preferences. This application uses the Google maps API, Yelp API and the HTML5 navigator API. To start up the application you must provide API keys for both Google Cloud and Yelp. 
-
-The server MUST be set up prior to starting the client application located at: [Restaurant Roulette-server](https://github.com/tonyguo665/restaurant-roulette-server).
+Server set up for restaurant-roulette application, located at: [Restaurant Roulette](https://github.com/tonyguo665/restaurant-roulette).
 
 ## Getting Started
 
-These instructions will get you a copy of the client up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the server up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -16,9 +14,9 @@ Pull the repo down to your local machine using `git clone` , and ensure that you
 
 Change to the root directory of the repo and run `npm install`
 
-## Client Start Up
+## Server Start Up
 
-Run `npm start` to start up the client, making sure this is done after to server start up.
+Run `npm start` to start up the server. The server should now be listening on port 3001.
 
 ## Authors
 
